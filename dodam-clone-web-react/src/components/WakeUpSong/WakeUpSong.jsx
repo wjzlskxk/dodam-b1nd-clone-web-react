@@ -1,5 +1,5 @@
 import Song from "../../img/wake-up-song.png";
-import "../WakeUpSong/WakeUpSong.css";
+import "../../styles/WakeUpSong.css";
 const WakeUpSong = () => {
   return (
     <div className="wake-up-song">

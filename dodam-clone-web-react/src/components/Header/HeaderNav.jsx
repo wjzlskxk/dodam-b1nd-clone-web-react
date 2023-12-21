@@ -1,4 +1,4 @@
-import "../Header/HeaderNav.css";
+import "../../styles/HeaderNav.css";
 import Dodam from "../../img/dodam.svg";
 const HeaderNav = () => {
   return (

@@ -1,8 +1,8 @@
-@import url(../all.css);
+@import url(../styles/all.css);
 
 .join {
-  width: 600px;
-  height: 320px;
+  width: 40vw;
+  height: 17vw;
   background-color: white;
 
   display: flex;
@@ -12,7 +12,7 @@
   align-items: center;
   border: 1px solid rgb(210, 210, 210);
 
-  margin-left: 100px;
+  margin-left: 140px;
   margin-top: 15px;
 }
 

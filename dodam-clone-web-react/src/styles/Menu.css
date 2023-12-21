@@ -1,7 +1,7 @@
-@import url(../all.css);
+@import url(../styles/all.css);
 
 .today-menu {
-  width: 595px;
+  width: 40vw;
   height: 326px;
   border: 1px solid rgb(210, 210, 210);
   background-color: rgb(255, 255, 255);
@@ -10,8 +10,8 @@
   -webkit-box-align: center;
   align-items: center;
 
-  margin-top: 30px;
-  margin-left: 100px;
+  margin-top: 50px;
+  margin-left: 140px;
 }
 
 .today-menu-info {

@@ -1,4 +1,4 @@
-import "../Join/Join.css";
+import "../../styles/Join.css";
 import JoinImg from "../../img/join.png";
 
 const Join = () => {

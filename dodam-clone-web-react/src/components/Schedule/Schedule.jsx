@@ -1,4 +1,4 @@
-import "../Schedule/Schedule.css";
+import "../../styles/Schedule.css";
 import ScheduleImg from "../../img/schedule.png";
 
 const Schedule = () => {

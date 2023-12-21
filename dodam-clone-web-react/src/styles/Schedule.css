@@ -1,22 +1,21 @@
-@import url(../all.css);
+@import url(../styles/all.css);
+.today-schedule {
+  width: 15vw;
+  height: 17vw;
+  background-color: white;
 
-.wake-up-song {
   display: flex;
   flex-direction: column;
 
-  width: 280px;
-  height: 326px;
-
-  border: 1px solid rgb(210, 210, 210);
-  background-color: white;
   -webkit-box-align: center;
   align-items: center;
+  border: 1px solid rgb(210, 210, 210);
 
-  margin-left: 100px;
-  margin-top: 30px;
+  margin-left: 140px;
+  margin-top: 15px;
 }
 
-.wake-up-song-info {
+.schd-info {
   width: calc(100% - 32px);
   min-height: 56px;
 
@@ -27,7 +26,7 @@
   border-bottom: 1px solid rgb(210, 210, 210);
 }
 
-.wake-up-song-info > img {
+.today-schedule > .schd-info > img {
   width: 18px;
   height: 18px;
 
@@ -40,21 +39,20 @@
   margin-top: 20px;
 }
 
-.wake-up-song-title {
+.schd-title {
   font-size: 14px;
   color: #000;
   cursor: pointer;
   font-weight: bold;
-  margin-right: 14px;
+  margin-right: 10px;
   white-space: nowrap;
+  margin-top: 20px;
   display: flex;
 
   background-color: transparent;
-
-  margin: 20px 10px 0px 0px;
 }
 
-.more-wake-up-song {
+.more-schd {
   display: flex;
   -webkit-box-align: center;
   align-items: center;
@@ -62,9 +60,15 @@
   font-size: 14px;
   margin-left: auto;
   cursor: pointer;
-  background-color: transparent;
 }
 
-.wake-up-song-content {
-  
+.schd-content {
+  color: #000;
+  font-size: 14px;
+  -webkit-box-align: center;
+  align-items: center;
+
+  margin-top: 100px;
+
+  background-color: transparent;
 }

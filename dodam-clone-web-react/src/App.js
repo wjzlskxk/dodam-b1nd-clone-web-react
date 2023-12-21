@@ -18,7 +18,9 @@ function App() {
         <Join />
         <Profile />
       </header>
-      <Banner />
+      <section style={{ display: "block" }}>
+        <Banner />
+      </section>
       <footer>
         <WakeUpSong />
         <Menu />

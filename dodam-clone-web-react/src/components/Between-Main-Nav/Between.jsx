@@ -1,4 +1,4 @@
-import "../Between-Main-Nav/Between.css";
+import "../../styles/Between.css";
 import TopOfProfile from "../../img/top_of_profile.svg";
 
 const Between = () => {
