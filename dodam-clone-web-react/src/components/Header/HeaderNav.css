@@ -1,0 +1,23 @@
+@import url(../all.css);
+.nav-bar {
+  background-color: white;
+  width: auto;
+  height: 100px;
+
+  display: flex;
+
+  justify-content: space-evenly;
+}
+
+.nav-bar > .dodam {
+  min-width: 120px;
+  max-width: 120px;
+
+  background-color: white;
+}
+
+nav > span {
+  margin-top: 40px;
+  background-color: white;
+  font-size: 23px;
+}

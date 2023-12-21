@@ -1,0 +1,40 @@
+@import url(../all.css);
+
+.between-nav-and-main {
+  width: auto;
+  height: 50px;
+
+  display: flex;
+}
+
+.important {
+  width: 70px;
+  height: 20px;
+
+  border: none;
+  border-radius: 20px;
+  background-color: #64b5f6;
+
+  text-align: center;
+
+  padding-top: 7px;
+
+  font-size: 13px;
+  color: #fff;
+
+  margin-left: 140px;
+  margin-top: 20px;
+}
+
+.between-nav-and-main > span {
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+.between-nav-and-main > img {
+  width: 120px;
+  height: 50px;
+
+  margin-top: 10px;
+  margin-left: 1600px;
+}

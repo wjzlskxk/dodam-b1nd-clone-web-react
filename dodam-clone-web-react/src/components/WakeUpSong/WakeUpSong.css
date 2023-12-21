@@ -1,0 +1,70 @@
+@import url(../all.css);
+
+.wake-up-song {
+  display: flex;
+  flex-direction: column;
+
+  width: 280px;
+  height: 326px;
+
+  border: 1px solid rgb(210, 210, 210);
+  background-color: white;
+  -webkit-box-align: center;
+  align-items: center;
+
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+.wake-up-song-info {
+  width: calc(100% - 32px);
+  min-height: 56px;
+
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+
+  border-bottom: 1px solid rgb(210, 210, 210);
+}
+
+.wake-up-song-info > img {
+  width: 18px;
+  height: 18px;
+
+  background-color: transparent;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  margin-right: 12px;
+  object-fit: scale-down;
+  margin-top: 20px;
+}
+
+.wake-up-song-title {
+  font-size: 14px;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: 14px;
+  white-space: nowrap;
+  display: flex;
+
+  background-color: transparent;
+
+  margin: 20px 10px 0px 0px;
+}
+
+.more-wake-up-song {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  color: #000;
+  font-size: 14px;
+  margin-left: auto;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.wake-up-song-content {
+  
+}

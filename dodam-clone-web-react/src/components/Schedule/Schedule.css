@@ -1,0 +1,74 @@
+@import url(../all.css);
+.today-schedule {
+  width: 280px;
+  height: 320px;
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+
+  -webkit-box-align: center;
+  align-items: center;
+  border: 1px solid rgb(210, 210, 210);
+
+  margin-left: 100px;
+  margin-top: 15px;
+}
+
+.schd-info {
+  width: calc(100% - 32px);
+  min-height: 56px;
+
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+
+  border-bottom: 1px solid rgb(210, 210, 210);
+}
+
+.today-schedule > .schd-info > img {
+  width: 18px;
+  height: 18px;
+
+  background-color: transparent;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  margin-right: 12px;
+  object-fit: scale-down;
+  margin-top: 20px;
+}
+
+.schd-title {
+  font-size: 14px;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: 10px;
+  white-space: nowrap;
+  margin-top: 20px;
+  display: flex;
+
+  background-color: transparent;
+}
+
+.more-schd {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  color: #000;
+  font-size: 14px;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.schd-content {
+  color: #000;
+  font-size: 14px;
+  -webkit-box-align: center;
+  align-items: center;
+
+  margin-top: 100px;
+
+  background-color: transparent;
+}
