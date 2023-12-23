@@ -5,9 +5,9 @@ import Join from "./components/Join/Join.jsx";
 import Schedule from "./components/Schedule/Schedule.jsx";
 import WakeUpSong from "./components/WakeUpSong/WakeUpSong.jsx";
 import Profile from "./components/Profile/Profile.jsx";
-
-import "./App.css";
 import Menu from "./components/Menu/Menu.jsx";
+import "./App.css";
+
 function App() {
   return (
     <div className="App">

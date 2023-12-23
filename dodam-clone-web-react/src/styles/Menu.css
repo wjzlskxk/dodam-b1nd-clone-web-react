@@ -86,7 +86,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   color: rgba(0, 0, 0, 0);
   opacity: 1;
   display: block;
-  background: url("../../img/menu.svg") no-repeat 98% 50%;
+  background: url("../img/menu.svg") no-repeat 98% 50%;
   background-size: 18px 18px;
   width: 30px;
   height: 25px;
